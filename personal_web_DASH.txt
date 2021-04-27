@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <head>
-<title>Nicolas Aguiluz</title>
+<title>Nicolas Aguiluz-Personal</title>
 <style>
 
   p {
     font-size: 25;
-    position: fixed;
-    bottom: 15%;
-    left: 2%
+    position: absolute;
+    bottom: 5%;
     margin: 0 auto;
+    text-align: center;
+    padding: 12;
+    margin: 12;
+    background: rgba(1, 1, 1, .5);
+    
   }
    h1 {
     font-size: 30;
-    position: fixed;
+    position: absolute;
     bottom: 25%;
-    left: 28%;
-    margin: 0 auto;
+    text-align: center;
+    padding: 12;
+    margin: 12;
+    background: rgba(1, 1, 1, .5);
+    height: 
       
   }
   body {
@@ -26,53 +33,110 @@
     color: white;
     font-family: monospace;
     font-size: 20;
+    position: relative;
     margin: 0 auto;
   }
-  input[type="submit"]{
+  .inputs {
+    color: white;
+    position: absolute;
+    top: 1%;
+    left: 45%
+  
+  }
+  /*input[type="submit"]{
     color: white;
     background: red;
-    position: fixed;
+    position: absolute;
     
   }
   input[typer="email"]{
-    margin: 0 auto; 
-  }
+    margin: 0 auto;
+    position: absolute;
+  }*/
   .image {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    position: fixed;
-    bottom: 700px;
-    left: 45%
+    position: absolute;
+    top: 22%;
+    left: 42%;
+  
   
   }
   .links {
     font-size: 25;
-    position: fixed;
-    bottom: 100px;
-    left: 45%;
+    position: absolute;
+    bottom: 15;
+    bottom: 0px;
+    text-align: center;
+    left: 40%;
     
+   
   }
   a {
     color: white;
     font-family: monospace;
-    
+  }
+  
+  @media (max-width: 500px) {
+    .inputs {
+      color: white;
+      position: absolute;
+      top: -15%;
+      left: 15%
+  
+    }
+    body {
+      font-size: 15px;
+      position: absolute;
+      bottom: 0;
+      background-size: cover;
+    }
+    .image {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      top: -95%;
+      left: 25%;
+    }
+    p {
+      height: 12px;
+      font-size: 20px;
+      max-width: 500;
+      position: relative;
+      
+      
+    }
+    h1 {
+      font-size: 20px;
+      position: relative;
+    }
+    .links {
+      font-size: 15px;
+      position: absolute;
+      top: -140%;
+      left: 20%;
+    }
+      
   }
   
 </style>
 </head>
-<body>
 
-<img src="https://i.imgur.com/pphD18O.jpg?1" class="image" alt="Man with hat looks back at camera smiling."
->
+<body>
+<img src="https://i.imgur.com/pphD18O.jpg?1" class="image" alt="Man with hat looks back at camera smiling.">
+
 <h1>Hello there! My name is Nic, and I'm a New Orleans-based environmental educator.</h1>
 
 <p> I received my BS in Marine Biology at the University of Oregon, but have decided to switch over to software engineering. My main interests are front-end web development, AR/MR technologies, and game development. I've recently started the Full Stack Web Development course at General Assembly, and am learning Unity  and other AR programs in my free time. Please reach out and say hello!</p>
+
 <div class="links">
   <a href="https://www.linkedin.com/in/nicolas-aguiluz-818177184/">LinkedIn</a>
   <a href="https://twitter.com/aguiluz_nicolas">Twitter</a>
   <a href="https://github.com/naguiluz">Github</a>
 </div>
 </body>
+<div class="inputs">
 <input type="email" placeholder="Your email">
 <input type="submit">
+</div>
