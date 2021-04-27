@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+<title>Nicolas Aguiluz</title>
+<style>
+
+  p {
+    font-size: 25;
+    position: fixed;
+    bottom: 15%;
+    left: 2%
+    margin: 0 auto;
+  }
+   h1 {
+    font-size: 30;
+    position: fixed;
+    bottom: 25%;
+    left: 28%;
+    margin: 0 auto;
+      
+  }
+  body {
+    text-align: center;
+    background: url("https://i.imgur.com/3SiAfIq.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: monospace;
+    font-size: 20;
+    margin: 0 auto;
+  }
+  input[type="submit"]{
+    color: white;
+    background: red;
+    position: fixed;
+    
+  }
+  input[typer="email"]{
+    margin: 0 auto; 
+  }
+  .image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 700px;
+    left: 45%
+  
+  }
+  .links {
+    font-size: 25;
+    position: fixed;
+    bottom: 100px;
+    left: 45%;
+    
+  }
+  a {
+    color: white;
+    font-family: monospace;
+    
+  }
+  
+</style>
+</head>
+<body>
+
+<img src="https://i.imgur.com/pphD18O.jpg?1" class="image" alt="Man with hat looks back at camera smiling."
+>
+<h1>Hello there! My name is Nic, and I'm a New Orleans-based environmental educator.</h1>
+
+<p> I received my BS in Marine Biology at the University of Oregon, but have decided to switch over to software engineering. My main interests are front-end web development, AR/MR technologies, and game development. I've recently started the Full Stack Web Development course at General Assembly, and am learning Unity  and other AR programs in my free time. Please reach out and say hello!</p>
+<div class="links">
+  <a href="https://www.linkedin.com/in/nicolas-aguiluz-818177184/">LinkedIn</a>
+  <a href="https://twitter.com/aguiluz_nicolas">Twitter</a>
+  <a href="https://github.com/naguiluz">Github</a>
+</div>
+</body>
+<input type="email" placeholder="Your email">
+<input type="submit">
